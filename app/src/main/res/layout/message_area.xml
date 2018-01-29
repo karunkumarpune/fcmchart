@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_corner1">
+
+
+    <EditText
+        android:background="@drawable/rounded_corner1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:hint="Write a message..."
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:id="@+id/messageArea"/>
+
+        <ImageButton
+            android:id="@+id/btn_file"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_attach_file_black_24dp"
+            android:background="@android:color/transparent"
+            />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_fibe"
+        android:src="@android:drawable/ic_menu_send"
+        android:id="@+id/sendButton"/>
+</LinearLayout>
